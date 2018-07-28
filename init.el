@@ -134,7 +134,8 @@
 ;; path
 
 ;; editor-theme
-(load-theme 'zenburn t)
+;; (load-theme 'zenburn t)
+(load-theme 'solarized-dark t)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -144,11 +145,11 @@
    (quote
     (autojoin button completion fill irccontrols list match menu move-to-prompt netsplit networks noncommands notifications readonly ring stamp track)))
  '(org-agenda-files (quote ("~/org/notes.org")))
- '(org-capture-templates nil)
+ '(org-capture-templates nil t)
  '(org-indent-mode-turns-on-hiding-stars t)
  '(package-selected-packages
    (quote
-    (auto-complete htmlize go-mode solarized-theme dracula-theme markdown-mode smart-compile ox-reveal circe open-junk-file magit smartrep multiple-cursors zenburn-theme smartparens rainbow-delimiters mew helm expand-region ddskk))))
+    (haml-mode quickrun auto-complete htmlize go-mode solarized-theme dracula-theme markdown-mode smart-compile ox-reveal circe open-junk-file magit smartrep multiple-cursors zenburn-theme smartparens rainbow-delimiters mew helm expand-region ddskk))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
