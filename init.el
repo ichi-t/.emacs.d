@@ -41,7 +41,8 @@
     mew
     helm
     expand-region
-    ddskk)
+    ddskk
+    yaml-mode)
   "packages to be installed")
 
 (require 'package)
@@ -150,7 +151,7 @@
  '(org-indent-mode-turns-on-hiding-stars t)
  '(package-selected-packages
    (quote
-    (spacemacs-theme haml-mode quickrun auto-complete htmlize go-mode solarized-theme dracula-theme markdown-mode smart-compile ox-reveal circe open-junk-file magit smartrep multiple-cursors zenburn-theme smartparens rainbow-delimiters mew helm expand-region ddskk))))
+    (yaml-mode spacemacs-theme haml-mode quickrun auto-complete htmlize go-mode solarized-theme dracula-theme markdown-mode smart-compile ox-reveal circe open-junk-file magit smartrep multiple-cursors zenburn-theme smartparens rainbow-delimiters mew helm expand-region ddskk))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
