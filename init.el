@@ -42,7 +42,9 @@
     helm
     expand-region
     ddskk
-    yaml-mode)
+    yaml-mode
+    slack
+    )
   "packages to be installed")
 
 (require 'package)
